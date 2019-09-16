@@ -1,7 +1,6 @@
 # podcastsPlus
 MacForge plugin that adds a few cool features to the new Podcasts app on macOS 10.15
 
-![preview0](images/00.png) 
 ![preview1](images/01.png) 
 
 # Information:
