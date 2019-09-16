@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2FE5ED2307B3960082C714 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2FE5EC2307B3960082C714 /* ZKSwizzle.m */; };
+		FB2FE6092308C2DA0082C714 /* AYProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2FE6072308C2DA0082C714 /* AYProgressIndicator.m */; };
+		FB684B3C23037F2F006D9D56 /* podcastsPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = FB684B3B23037F2F006D9D56 /* podcastsPlus.m */; };
+		FB96599B2313402F00D6EAEB /* MediaRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB96599A2313402F00D6EAEB /* MediaRemote.framework */; };
+		FBEB1E38230D1AA600E6AFCA /* ClassicOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = FBEB1E36230D1AA600E6AFCA /* ClassicOverlay.png */; };
+		FBEB1E39230D1AA600E6AFCA /* ModernOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = FBEB1E37230D1AA600E6AFCA /* ModernOverlay.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB2FE5EB2307B3960082C714 /* ZKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		FB2FE5EC2307B3960082C714 /* ZKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		FB2FE6072308C2DA0082C714 /* AYProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYProgressIndicator.m; sourceTree = "<group>"; };
+		FB2FE6082308C2DA0082C714 /* AYProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYProgressIndicator.h; sourceTree = "<group>"; };
+		FB684B3123037EB9006D9D56 /* podcastsPlus.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podcastsPlus.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB684B3423037EB9006D9D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB684B3A23037F2F006D9D56 /* podcastsPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = podcastsPlus.h; sourceTree = "<group>"; };
+		FB684B3B23037F2F006D9D56 /* podcastsPlus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podcastsPlus.m; sourceTree = "<group>"; };
+		FB965996231338AB00D6EAEB /* MRMediaRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMediaRemote.h; sourceTree = "<group>"; };
+		FB96599823133B4900D6EAEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB96599A2313402F00D6EAEB /* MediaRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaRemote.framework; path = ../../../../System/Library/PrivateFrameworks/MediaRemote.framework; sourceTree = "<group>"; };
+		FBEB1E36230D1AA600E6AFCA /* ClassicOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClassicOverlay.png; sourceTree = "<group>"; };
+		FBEB1E37230D1AA600E6AFCA /* ModernOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ModernOverlay.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB684B2E23037EB9006D9D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB96599B2313402F00D6EAEB /* MediaRemote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2FE5EE2307B44C0082C714 /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				FB2FE5EB2307B3960082C714 /* ZKSwizzle.h */,
+				FB2FE5EC2307B3960082C714 /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+		FB2FE60A2308C3B90082C714 /* AYProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				FB2FE6082308C2DA0082C714 /* AYProgressIndicator.h */,
+				FB2FE6072308C2DA0082C714 /* AYProgressIndicator.m */,
+			);
+			path = AYProgressIndicator;
+			sourceTree = "<group>";
+		};
+		FB684B2823037EB9006D9D56 = {
+			isa = PBXGroup;
+			children = (
+				FB684B3323037EB9006D9D56 /* podcastsPlus */,
+				FB684B3223037EB9006D9D56 /* Products */,
+				FB96599723133B4900D6EAEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB684B3223037EB9006D9D56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB684B3123037EB9006D9D56 /* podcastsPlus.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB684B3323037EB9006D9D56 /* podcastsPlus */ = {
+			isa = PBXGroup;
+			children = (
+				FB2FE5EE2307B44C0082C714 /* ZKSwizzle */,
+				FB2FE60A2308C3B90082C714 /* AYProgressIndicator */,
+				FBEB1E3A230D1AAF00E6AFCA /* Overlays */,
+				FB965996231338AB00D6EAEB /* MRMediaRemote.h */,
+				FB684B3A23037F2F006D9D56 /* podcastsPlus.h */,
+				FB684B3B23037F2F006D9D56 /* podcastsPlus.m */,
+				FB684B3423037EB9006D9D56 /* Info.plist */,
+			);
+			path = podcastsPlus;
+			sourceTree = "<group>";
+		};
+		FB96599723133B4900D6EAEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB96599A2313402F00D6EAEB /* MediaRemote.framework */,
+				FB96599823133B4900D6EAEB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBEB1E3A230D1AAF00E6AFCA /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				FBEB1E36230D1AA600E6AFCA /* ClassicOverlay.png */,
+				FBEB1E37230D1AA600E6AFCA /* ModernOverlay.png */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB684B3023037EB9006D9D56 /* podcastsPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB684B3723037EB9006D9D56 /* Build configuration list for PBXNativeTarget "podcastsPlus" */;
+			buildPhases = (
+				FB684B2D23037EB9006D9D56 /* Sources */,
+				FB684B2E23037EB9006D9D56 /* Frameworks */,
+				FB684B2F23037EB9006D9D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = podcastsPlus;
+			productName = podcastsPlus;
+			productReference = FB684B3123037EB9006D9D56 /* podcastsPlus.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB684B2923037EB9006D9D56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = macenhance;
+				TargetAttributes = {
+					FB684B3023037EB9006D9D56 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = FB684B2C23037EB9006D9D56 /* Build configuration list for PBXProject "podcastsPlus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB684B2823037EB9006D9D56;
+			productRefGroup = FB684B3223037EB9006D9D56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB684B3023037EB9006D9D56 /* podcastsPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB684B2F23037EB9006D9D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEB1E38230D1AA600E6AFCA /* ClassicOverlay.png in Resources */,
+				FBEB1E39230D1AA600E6AFCA /* ModernOverlay.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB684B2D23037EB9006D9D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB684B3C23037F2F006D9D56 /* podcastsPlus.m in Sources */,
+				FB2FE5ED2307B3960082C714 /* ZKSwizzle.m in Sources */,
+				FB2FE6092308C2DA0082C714 /* AYProgressIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB684B3523037EB9006D9D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB684B3623037EB9006D9D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB684B3823037EB9006D9D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = EX596BNL45;
+				DSTROOT = /;
+				INFOPLIST_FILE = podcastsPlus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/MacEnhance/Plugins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macenhance.podcastsPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FB684B3923037EB9006D9D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = EX596BNL45;
+				DSTROOT = /;
+				INFOPLIST_FILE = podcastsPlus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/MacEnhance/Plugins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macenhance.podcastsPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB684B2C23037EB9006D9D56 /* Build configuration list for PBXProject "podcastsPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB684B3523037EB9006D9D56 /* Debug */,
+				FB684B3623037EB9006D9D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB684B3723037EB9006D9D56 /* Build configuration list for PBXNativeTarget "podcastsPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB684B3823037EB9006D9D56 /* Debug */,
+				FB684B3923037EB9006D9D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB684B2923037EB9006D9D56 /* Project object */;
+}
